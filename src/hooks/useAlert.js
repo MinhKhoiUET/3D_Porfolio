@@ -15,7 +15,7 @@ const useAlert = () => {
         }
     )
 
-    const hideAlert = ({}) => setAlert(
+    const hideAlert = () => setAlert(
         {
             show: false,
             text: '',
